@@ -23,6 +23,11 @@ De ser así, habrá que ejecutar:
 Set-ExecutionPolicy Unrestricted
 ```
 y finalmente ejecutar el script `install.ps1`
+
+![instalacionProceso](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/instalacionProceso.png)
+
+![instalacionFin](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/instalacionFin.png)
+
 > Opción 2
 
 De forma alternativa, simplemente se puede ejecutar lo siguiente:
@@ -35,20 +40,28 @@ Este último comando lo hace todo en uno. Establece la regla de ejecución y des
 # Ejemplos de instalación
 Puede que haya que cerrar y abrir de nuevo PowerShell después de instalar Chocolatey.
 
+![chocoInstalado](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/chocoInstalado.png)
+
 Para buscar paquetes que se pueden instalar se puede visitar la página [https://community.chocolatey.org/packages](https://community.chocolatey.org/packages)
 
 Tiene un buscador y aparece el comando exacto a ejecutar en PowerShell.
 
+![instalacionPaqueteComando](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/instalarPaqueteComando.png)
+
 Se ejecuta y comienza la instalación:
+
+![instalacionPaquetePowerShell](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/instalacionPaquetePowerShell.png)
 
 
 Una vez finalizado, se comprueba que ha instalado el software, en este caso Adobe Acrobat Reader.
+
+![acrobatReaderInstalado](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/acrobarReaderInstalado.png)
 
 Finalmente, para actualizar el software instalado con Chocolatey, se puede ejecutar:
 ```
 choco upgrade all
 ```
-
+![actualizar](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/actualizar.png)
 
 # Referencias
 
