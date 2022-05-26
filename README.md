@@ -16,6 +16,8 @@ Chocolatey se instala mediante un script de PowerShell (extensión .ps1). Se pue
 
 Antes de ejecutarlo, hay que asegurarse de que el comando `Get-ExecutionPolicy` no muestra `Restricted`.
 
+![unrestricted](https://github.com/naranjocarmona/chocolatey/blob/main/capturas/unrestricted.png)
+
 De ser así, habrá que ejecutar:
 ```
 Set-ExecutionPolicy Unrestricted
